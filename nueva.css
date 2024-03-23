@@ -8,7 +8,7 @@
 
 .ca{
     background: linear-gradient(to top, rgba(1, 31, 48, 0.8), rgb(1, 29, 46)),
-    url(Imagenes/ProyectoMora/servicio-al-cliente-3-e1534443861745-800x400.jpg);
+    url(servicio-al-cliente-3-e1534443861745-800x400.jpg);
     background-size: cover;
     color: #fff;
     padding: 50px 20px;
@@ -55,7 +55,7 @@
 
 .portfolio{
     background: linear-gradient(to top, rgba(1, 25, 39, 0.8), rgba(1, 27, 43, 0.8)),
-    url(Imagenes/ProyectoMora/attractive-business-woman-asian-suits-600nw-1965280306.webp);
+    url(attractive-business-woman-asian-suits-600nw-1965280306.webp);
     background-size: cover;
     color: #fff;
     padding: 50px 20px;
@@ -121,7 +121,7 @@ h2{
 
 .contacto{
     background: linear-gradient(to top, rgba(1, 25, 39, 0.8), rgba(1, 27, 43, 0.8)),
-    url(Imagenes/ProyectoMora/servicio-al-cliente-3-e1534443861745-800x400.jpg);
+    url(servicio-al-cliente-3-e1534443861745-800x400.jpg);
     background-size: cover;
     color: #fff;
     padding: 50px 0;
