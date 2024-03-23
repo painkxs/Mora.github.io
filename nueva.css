@@ -270,18 +270,17 @@ footer .arriba{
         font-size: 24px;
     }
 
-    .contenedor-header header ul {
+   .contenedor-header header ul {
         display:flex;
         list-style: none;
-        font-size: large;
-        margin: 0px 10px 0px 0px;
-        
+        font-size:medium;
+        margin: 0;
+        padding: 0;
         
      }
 
     .contenedor-header header nav ul li {
-        display:flex;
-        margin: 0px 10px 0px 0px;
+        margin-right:auto;        
     }
 
     /* Ajuste del tamaño del texto en la sección de cartera */
