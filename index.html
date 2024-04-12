@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="portafolio.css">
+</head>
+<body class="fuente1">
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Jack</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li id="nav-inicio"><a href="#inicio">Inicio</a> </li>
+                    <li id="nav-sobremi"><a href="#sobremi">Sobre mí</a> </li>
+                    <li id="nav-portfolio"><a href="#portfolio">Portafolio</a> </li>
+                    <li id="nav-contacto"><a href="#contacto">Contactame</a> </li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fas fa-bars"></i>    
+            </div>
+        </header>
+    </div>
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="Imagenes/yo.jpg" alt="">
+            </div>
+            <h1>Jack Fernandez</h1>
+            <h2 id="job-title">Ingeniero en Sistemas</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/jack.fernandez.52?locale=es_LA"><i class="fab fa-facebook-f"></i> </a>
+                <a href="https://twitter.com/Jackfreecss"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.twitch.tv/jackfreecss"><i class="fab fa-twitch"></i></a>
+                <a href="https://account.xbox.com/es-mx/Profile?xr=mebarnav&rtc=1&csrf=3t1D2hdglg276mjsa8sWBIHnvxHec3tytw7PgFO1kZQPiUqZAuJ6qa6R6CmR8GjacSFdIuoYyH74l7Byp3DLITSgyiQ1&wa=wsignin1.0"><i class="fab fa-xbox"></i></a>
+            </div>
+        </div>    
+    </section>
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2 id="sobremi-title">SOBRE MI</h2>
+            <p id="about-me"><span>Hola, soy Jack Fernandez.</span> Soy un aficionado de la programación poniendo énfasis en los lenguajes java, c, c++. Me encanta usar HTML y CSS, pongo mucho entusiasmo a todo lo que hago y me esfuerzo al máximo cuando quiero algo.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3 id="personal-info">Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong id="birthday-label">Cumpleaños</strong>
+                            <span id="birthday">19-09-1995</span>
+                        </li>
+                        <li>
+                            <strong id="phone-label">Teléfono</strong>
+                            <span id="phone">55-74-62-65-34</span>
+                        </li>
+                        <li>
+                            <strong id="email-label">Email</strong>
+                            <span id="email">jacob.halo3@hotmail.com</span>
+                        </li>
+                        <li>
+                            <strong id="website-label">Website</strong>
+                            <span id="website">www.jacob.com</span>
+                        </li>
+                        <li>
+                            <strong id="address-label">Dirección</strong>
+                            <span id="address">AV Cuahutemoc 762 int 201</span>
+                        </li>
+                        <li>
+                            <strong id="position-label">Cargo</strong>
+                            <span id="position">FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3 id="interests-title">Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fab fa-xbox"></i>
+                            <span id="interest-games">Juegos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-headphones"></i>
+                            <span id="interest-music">Música</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-plane"></i>
+                            <span id="interest-travel">Viajar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-headphones"></i>
+                            <span id="interest-headphones">Audífonos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-futbol"></i>
+                            <span id="interest-sports">Deporte</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-running"></i>
+                            <span id="interest-running">Correr</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-laptop"></i>
+                            <span id="interest-computers">Computadoras</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-mobile"></i>
+                            <span id="interest-cellphone">Celular</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="changeLangBtn">Cambiar Idioma</button>
+            <button id="changeFontBtn">Cambiar Fuente</button>
+            <button id="changeColorBtn2">Cambiar Colores</button>
+
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2 id="portfolio-title">PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="Imagenes/PORTAFOLIO/Captura de pantalla 2024-02-18 162959.png" alt="">
+                    <div class="overlay">
+                        <h3>Menú Interactivo</h3>
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="Imagenes/PORTAFOLIO/Captura de pantalla 2024-02-18 163431.png" alt="">
+                    <div class="overlay">
+                        <h3>División de Pantalla</h3>
+                        <p>HTML, CSS, Bootstrap</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="Imagenes/PORTAFOLIO/Captura de pantalla 2024-02-18 163645.png" alt="">
+                    <div class="overlay">
+                        <h3>Carrusel</h3>
+                        <p>HTML, CSS, Bootstrap</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="Imagenes/PORTAFOLIO/Captura de pantalla 2024-02-18 163706.png" alt="">
+                    <div class="overlay">
+                        <h3>Carrusel</h3>
+                        <p>HTML, CSS, Bootstrap</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="Imagenes/PORTAFOLIO/Captura de pantalla 2024-02-18 163725.png" alt="">
+                    <div class="overlay">
+                        <h3>Menú de Navegación</h3>
+                        <p>HTML, CSS</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="Imagenes/Captura de pantalla 2024-04-11 183714.png" alt="">
+                    <div class="overlay">
+                        <h3>Mapa de google</h3>
+                        <p>Links SRC</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <button id="download-btn">Descargar Portafolio</button>
+
+        </div>
+    </section>
+    
+     
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2 id="contacto-title">CONTACTAME</h2>
+            <div class="fila">
+                <div class="col">
+                    <form action="https://formspree.io/f/xjvnezpq" method="POST">
+                    <input type="text" id="contacto-name" name="name" placeholder="Nombre" id="contacto-name"  required>
+                    <input type="text" id="contacto-telefono" name="telefono" placeholder="Telefono" required>
+                    <input type="text" id="contacto-correo" name="correo" placeholder="Correo" required>
+                    <textarea  id="contacto-mensaje" cols="30" name="Mensaje" rows="10" placeholder="Mensaje" ></textarea>
+                    <button type="submit" id="contacto-boton_contactame" name="Mensaje" > <i class="fa-solid fa-paper-plane">CONTACTAME</i><span class="overlay"></span>
+                    </button>
+                    </form>
+                </div>
+            </section>
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fas fa-angle-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/jack.fernandez.52?locale=es_LA"><i class="fab fa-facebook-f"></i> </a>
+            <a href="https://twitter.com/Jackfreecss"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.twitch.tv/jackfreecss"><i class="fab fa-twitch"></i></a>
+            <a href="https://account.xbox.com/es-mx/Profile?xr=mebarnav&rtc=1&csrf=3t1D2hdglg276mjsa8sWBIHnvxHec3tytw7PgFO1kZQPiUqZAuJ6qa6R6CmR8GjacSFdIuoYyH74l7Byp3DLITSgyiQ1&wa=wsignin1.0"><i class="fab fa-xbox"></i></a>
+        </div>
+    </footer>
+    
+    <script src="j.js"></script>
+    
+</body>
+</html>
