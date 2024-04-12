@@ -95,7 +95,7 @@ html{
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(Imagenes/Overwatch-Game-All-Heroes-Games-4k-Wallpaper-Image-Hd.jpg);
+    url(Overwatch-Game-All-Heroes-Games-4k-Wallpaper-Image-Hd.jpg);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -146,7 +146,7 @@ html{
 }
 .sobremi{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(Imagenes/DPS/tracer-00.jpg);
+    url(tracer-00.jpg);
     background-size: cover;
     color: #fff;
     padding: 50px 20px;
@@ -251,7 +251,7 @@ html{
 
 .portfolio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(Imagenes/div/97946ad6cd60074d8805080c40a51963.jpg);
+    url(97946ad6cd60074d8805080c40a51963.jpg);
     background-size: cover;
     color: #fff;
     padding: 50px 20px;
@@ -364,7 +364,7 @@ footer .arriba{
 
 .contacto{
     background: linear-gradient(to top, rgba(1, 25, 39, 0.8), rgba(1, 27, 43, 0.8)),
-    url(Imagenes/TANKS/WINSTON_PRIMALRAGE.jpg);
+    url(WINSTON_PRIMALRAGE.jpg);
     background-size: cover;
     color: #fff;
     padding: 50px 0;
