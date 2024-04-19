@@ -56,6 +56,11 @@ function changeToEnglish() {
     document.getElementById("contacto-correo").placeholder = "mail";
     document.getElementById("contacto-mensaje").placeholder = "message";
     document.getElementById("contacto-boton_contactame").textContent = "Contact me";
+    document.getElementById("changeLangBtn").textContent = "Change language ";
+    document.getElementById("changeFontBtn").textContent = "Change font ";  
+    document.getElementById("changeColorBtn2").textContent = "Change color ";
+    document.getElementById("download-btn").textContent = "Download portfolio";
+  
 
 }
   
@@ -105,6 +110,10 @@ function changeToEnglish() {
     document.getElementById("contacto-correo").placeholder = "correo";
     document.getElementById("contacto-mensaje").placeholder = "mensaje";
     document.getElementById("contacto-boton_contactame").textContent = "Contactame";
+    document.getElementById("changeLangBtn").textContent = "Cambiar idioma ";
+    document.getElementById("changeFontBtn").textContent = "Cambiar fuente ";  
+    document.getElementById("changeColorBtn2").textContent = "Cambiar color ";
+    document.getElementById("download-btn").textContent = "Descargar portafolio";  
 
     }
   
