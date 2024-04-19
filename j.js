@@ -142,9 +142,13 @@ function changeFont() {
   });
   
   document.getElementById("changeColorBtn2").addEventListener("click", function() {
+    
     document.querySelector(".sobremi").classList.toggle("colors2");
-        document.querySelector(".contenedor-header").classList.toggle("colors2"); // Agrega esta línea
-    });
+    document.querySelector(".contenedor-header").classList.toggle("colors2"); 
+    document.querySelector(".inicio").classList.toggle("colors2");      
+    document.querySelector(".portfolio").classList.toggle("colors2");
+    document.querySelector(".contacto").classList.toggle("colors2");    
+  });
     
 
     document.getElementById("download-btn").addEventListener("click", function() {
