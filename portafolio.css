@@ -37,6 +37,41 @@
 }
 
 
+.sobremi.colors2 {
+    background: linear-gradient(to top, rgba(238, 240, 241, 0.8), rgb(209, 212, 214)),
+    url(Imagenes/DPS/tracer-00.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.inicio.colors2 {
+    background: linear-gradient(to top, rgba(226, 228, 231, 0.8),rgb(214, 221, 224)),
+    url(Imagenes/OtroFondo.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.portfolio.colors2 {
+    background: linear-gradient(to top, rgba(212, 218, 221, 0.8), rgb(201, 208, 212)),
+    url(NuevoFondo.jpg); /* Cambia a la ruta de tu nuevo fondo */
+    background-size: cover;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.contacto.colors2 {
+    background: linear-gradient(to top, rgba(221, 224, 226, 0.8), rgba(229, 232, 235, 0.8)),
+    url(NuevoFondo.jpg); /* Cambia a la ruta de tu nuevo fondo */
+    background-size: cover;
+    color: #fff;
+    padding: 50px 0;
+}
+
+
 /* Estilos para los iconos */
 [class^="fas"], [class^="far"], [class^="fab"] {
     font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', sans-serif !important;
